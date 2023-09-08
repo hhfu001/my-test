@@ -95,7 +95,7 @@ function App() {
             <p>Locationid: {selectedCard.locationid}</p>
             <p>LocationDescription: {selectedCard.LocationDescription}</p>
             <p>Approved: {selectedCard.Approved}</p>
-            <p><a href={selectedCard.Schedule} download>Schedule </a></p>
+            <p><a href={selectedCard.Schedule}>Schedule </a></p>
           </div>
         </div>
       )}
