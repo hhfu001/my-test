@@ -1,3 +1,9 @@
+### 设计功能
+设计一个根据位置、个人喜好，推荐餐车的feeds流产品web；\
+可以更加食品名、地址、供应商等个人喜好搜索需要的餐车；\
+这里的数据使用了本地mock的方式进行，功能体验细节、代码结构需要持续优化
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
