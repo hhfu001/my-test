@@ -70,9 +70,9 @@ function App() {
         {dataList.map((card, index) => (
           <div className="card" key={index} >
             <img className='card-icon' src={card.icon || carIcon} alt={card.Applicant} />
-            <h3>{card.Applicant}</h3>
+            <h3>Applicant:{card.Applicant}</h3>
             <p>Facility Id: {card.locationid}</p>
-            <p>{card.LocationDescription}</p>
+            <p>LocationDescription:{card.LocationDescription}</p>
             <button onClick={() => openCarDetails(card)}>view more</button>
           </div>
         ))}
