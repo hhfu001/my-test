@@ -3,4 +3,4 @@
 
 
 run "npm install -s "
-run "node server.js"
+run "node index.js"
